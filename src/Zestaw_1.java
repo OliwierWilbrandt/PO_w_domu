@@ -1,3 +1,7 @@
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
+
 public class Zestaw_1 {
     public static void main(String[] args) {
 
@@ -86,8 +90,22 @@ public class Zestaw_1 {
 
         //11
         for (int i=0; i<5; i++) {
-            System.out.print("wodrze");
+            System.out.print("wodrze ");
         }
+
+
+        //12
+
+        LocalDateTime teraz = LocalDateTime.now();
+
+        DateTimeFormatter formatData = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+        DateTimeFormatter formatGodzina = DateTimeFormatter.ofPattern("HH:mm:ss");
+
+        System.out.println("Dzisiaj jest (" + teraz.format(formatData) + ") godzina(" + teraz.format(formatGodzina) + ")");
+
+
+        //13
+
 
 
 
