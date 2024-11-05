@@ -39,6 +39,15 @@ public class Zestaw_3 {
         } else {
             System.out.println("Liczba " + liczba + " nie jest palindromem");
         }
+
+        System.out.print("Zadanie 1\n");
+        int p = 20;
+        trojkiPitagorejskie(p);
+
+
+        System.out.print("Zadanie 7\n");
+        int s =5;
+        System.out.println("Silnia liczby " + s + " wynosi: " + silnia(s));
     }
 
 
@@ -56,4 +65,36 @@ public class Zestaw_3 {
         return poczatkowaliczba == odwroconaliczba;
     }
 
+
+
+    //1
+
+    public static void trojkiPitagorejskie(int p) {
+        System.out.println("Trójki pitagorejskie w zakresie " + p + ":\n");
+
+        for (int a = 1; a <= p; a++) {
+            for (int b = a + 1; b <= p; b++) {
+                for (int c = b + 1; c <= p; c++) {
+                    if (a * a + b * b == c * c) {
+                        System.out.println("(" + a + ", " + b + ", " + c + ")");
+                    }
+                }
+            }
+        }
+    }
+
+
+    //7
+
+    public static long silnia(int s) {
+        if (s == 0) {
+            return 1;
+        } else {
+            return s * silnia(s - 1);
+        }
+    }
+
 }
+
+
+
