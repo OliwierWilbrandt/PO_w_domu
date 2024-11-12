@@ -5,7 +5,7 @@ public class Zestaw_2 {
 
         //1
 
-        System.out.println("Zad1\n" +
+        System.out.println("Zadanie 1\n" +
                 "23.0+76 - double\n" +
                 "41*2.0+3 - double\n" +
                 "5-33 - int\n" +
@@ -18,7 +18,7 @@ public class Zestaw_2 {
 
         //2
 
-
+        System.out.print("Zadanie 2\n");
         double wynik = ((Math.sqrt(7)-1)/2)+ Math.pow(3,3)%2;
 
         int wynikInt = (int) wynik;
@@ -75,7 +75,7 @@ public class Zestaw_2 {
 
 
         //3
-
+        System.out.print("Zadanie 3\n");
         Scanner scanner = new Scanner(System.in);
 //
 //        System.out.print("Podaj pierwsze słowo: ");
@@ -89,7 +89,7 @@ public class Zestaw_2 {
 
 
         //4
-
+//        System.out.print("Zadanie 4\n");
 //        System.out.print("Podaj pierwszą liczbę: ");
 //        double liczba1 = scanner.nextDouble();
 //
@@ -108,7 +108,7 @@ public class Zestaw_2 {
 
 
         //5
-
+        System.out.print("Zadanie 5\n");
         System.out.print("Podal liczbe x: ");
         double x= scanner.nextDouble();
 
@@ -132,24 +132,6 @@ public class Zestaw_2 {
 
         double potega =Math.pow(x,45);
         System.out.println("Wynik po podniesieniu do potegi 45 x : " + potega);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
