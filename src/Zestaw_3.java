@@ -179,6 +179,7 @@ public class Zestaw_3 {
 
 
     //Zadanie 14
+    //Wypisz trójkąt Pascala, którego wysokość jest liczbą n. (+1 pkt) trojkatPascala(n)
 
 //    public static int dwumian(int n, int k) {
 //        int wynik = 1;
@@ -207,6 +208,7 @@ public class Zestaw_3 {
 
 
     //Zadanie 15
+    //Sprawdź czy podana liczba jest palindromem. (bool)(+1 pkt) czyPalindrom(n)
 
 //    public static boolean czypalindrom(int n) {
 //        int poczatkowaliczba = n;
@@ -223,6 +225,8 @@ public class Zestaw_3 {
 
 
     //Zadanie 1
+    //Wypisz w granicach n wszystkie trójki pitagorejskie.
+    //trojkiPitagorejskie(n)
 
 //    public static void trojkiPitagorejskie(int p) {
 //        System.out.println("Trójki pitagorejskie w zakresie " + p + ":\n");
@@ -240,6 +244,8 @@ public class Zestaw_3 {
 
 
     //Zadanie 7
+    //Oblicz silnie liczby n.
+    //silnia(n)
 
 //    public static long silnia(int s) {
 //        if (s == 0) {
