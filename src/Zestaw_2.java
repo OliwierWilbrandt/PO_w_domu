@@ -4,6 +4,15 @@ public class Zestaw_2 {
     public static void main(String[] args) {
 
         //1
+        //Określ jaki będzie typ danej wyniku operacji:
+        //23.0+76
+        //41*2.0+3
+        //5-33
+        //109%3
+        //50/2
+        //4|2
+        //3^5
+        //7&9
 
         System.out.println("Zadanie 1\n" +
                 "23.0+76 - double\n" +
@@ -17,6 +26,12 @@ public class Zestaw_2 {
 
 
         //2
+        //Oblicz wynik działania, a następnie zrzutuj na int:
+        //√7−12+33%2
+        //[𝑟𝑜𝑘𝑈𝑟𝑜𝑑𝑧𝑒𝑛𝑖𝑎]/([𝑑𝑧𝑖𝑒𝑛𝑈𝑟𝑜𝑑𝑧𝑒𝑛𝑖𝑎]∗[𝑚𝑖𝑒𝑠𝑖ą𝑐𝑈𝑟𝑜𝑑𝑧𝑒𝑛𝑖𝑎])
+        //3+√3√5/23+1
+        //𝑎%𝑏%𝑐 – dobierz tak żeby wynikiem nie było 0
+        //[𝑛𝑎𝑧𝑤𝑖𝑠𝑘𝑜]%[𝑖𝑚𝑖𝑒]+1√24
 
         System.out.print("Zadanie 2\n");
         double wynik = ((Math.sqrt(7)-1)/2)+ Math.pow(3,3)%2;
@@ -75,6 +90,7 @@ public class Zestaw_2 {
 
 
         //3
+        //Napisz program, który będzie pobierał dwa słowa od użytkownika i wypisywał je na ekranie.
         System.out.print("Zadanie 3\n");
         Scanner scanner = new Scanner(System.in);
 //
@@ -89,6 +105,7 @@ public class Zestaw_2 {
 
 
         //4
+        //Napisz program, który będzie pobierał dwie liczby od użytkownika i wypisał ich sumę, różnicę, iloczyn i iloraz.
 //        System.out.print("Zadanie 4\n");
 //        System.out.print("Podaj pierwszą liczbę: ");
 //        double liczba1 = scanner.nextDouble();
@@ -108,6 +125,19 @@ public class Zestaw_2 {
 
 
         //5
+        //Napisz program, który będzie pobierał liczbę x od użytkownika i wypisał tę liczbę:
+        //Powiększoną o 140
+        //Pomniejszoną o 31
+        //Powiększoną 7 razy
+        //Pomniejszoną 13 razy
+        //Modulo 7
+        //Część całkowita z dzielenia przez 4
+        //Podniesioną do potęgi 45
+        //Iloraz bitowy z 67
+        //Suma bitowa z 59
+        //XOR z 23
+        //Przesuniętą o 5 bitów w lewo
+        //Przesuniętą o 6 bitów w prawo
         System.out.print("Zadanie 5\n");
         System.out.print("Podal liczbe x: ");
         double x= scanner.nextDouble();
