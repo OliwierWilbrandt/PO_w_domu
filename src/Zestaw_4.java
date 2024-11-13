@@ -503,6 +503,7 @@ public class Zestaw_4 {
 //    }
 
 
+    //*********
     //Zadnie 6
     //Wykorzystując funkcję z zadania 1. napisz funkcje, które wykonują odpowiednie operacje na tablicy.
     //najdluzszyCiagDodatnich(tab) najdluzszyCiagUjemnych(tab) odwrocTablice(tab) odwrocTablice(tab, indeksStart, indeksStop)
