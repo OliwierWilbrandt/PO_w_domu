@@ -178,6 +178,7 @@ public class Zestaw_3 {
 
 
 
+    //**********
     //Zadanie 14
     //Wypisz trójkąt Pascala, którego wysokość jest liczbą n. (+1 pkt) trojkatPascala(n)
 
@@ -207,6 +208,7 @@ public class Zestaw_3 {
 
 
 
+    //**********
     //Zadanie 15
     //Sprawdź czy podana liczba jest palindromem. (bool)(+1 pkt) czyPalindrom(n)
 
