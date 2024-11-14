@@ -17,11 +17,11 @@ public class Zestaw_4 {
 
 
 //        System.out.print("Zadanie 7\n");
-//        int n = 10;
+//        int n = 5;
 //        int minWartosc = 5;
-//        int maxWartosc = 50;
+//        int maxWartosc = 15;
 //
-//        int[] tablica = generujZakres(n, minWartosc, maxWartosc);
+//        double[] tablica = generujZakres(n, minWartosc, maxWartosc);
 //
 //        System.out.println("Wygenerowana tablica:");
 //        wypiszTablice(tablica);
@@ -168,21 +168,21 @@ public class Zestaw_4 {
     //Zmodyfikuj funkcję z zadania 1. w taki sposób, aby generowała tablicę, której liczby są w równych odstępach od siebie.
     //generujZakres(n, minWartosc, maxWartosc)
 
-//    public static int[] generujZakres(int n, int minWartosc, int maxWartosc) {
-//        int[] tablica = new int[n];
+//    public static double[] generujZakres(int n, double minWartosc, double maxWartosc) {
+//        double[] tablica = new double[n];
 //
-//        double krok = (double)(maxWartosc - minWartosc) / (n - 1);
+//        double krok = (maxWartosc - minWartosc) / (n - 1);
 //
 //        for (int i = 0; i < n; i++) {
-//            tablica[i] = (int)(minWartosc + i * krok);
+//            tablica[i] = minWartosc + i * krok;
 //        }
 //
 //        return tablica;
 //    }
 //
-//    public static void wypiszTablice(int[] tablica) {
-//        for (int i : tablica) {
-//            System.out.print(i + " ");
+//    public static void wypiszTablice(double[] tablica) {
+//        for (double i : tablica) {
+//            System.out.printf("%.2f  ", i);
 //        }
 //        System.out.println();
 //    }
